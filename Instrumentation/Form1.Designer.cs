@@ -36,12 +36,12 @@ namespace Instrumentation
             System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Виолончель");
             System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Контрабас (четырёхструнный)");
             System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Классическая гитара");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Домра");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Домры");
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("    Малая домра");
             System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("    Домра пикколо");
             System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("    Альтовая домра");
             System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("    Басовая домра");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Балалайки (не корабельные)");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Балалайки");
             System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("    Балалайка прима");
             System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("    Балалайка секунда");
             System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("    Балалайка альт");
@@ -79,6 +79,7 @@ namespace Instrumentation
             // 
             this.treeView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.treeView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.treeView1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.treeView1.ForeColor = System.Drawing.Color.White;
             this.treeView1.Location = new System.Drawing.Point(-1, 56);
             this.treeView1.Name = "treeView1";
@@ -95,7 +96,7 @@ namespace Instrumentation
             treeNode6.Name = "Node5ClassicalGuitar";
             treeNode6.Text = "Классическая гитара";
             treeNode7.Name = "Node0";
-            treeNode7.Text = "Домра";
+            treeNode7.Text = "Домры";
             treeNode8.Name = "Node61SmallDomra";
             treeNode8.Text = "    Малая домра";
             treeNode9.Name = "Node62DomraPiccolo";
@@ -105,7 +106,7 @@ namespace Instrumentation
             treeNode11.Name = "Node64BassDomra";
             treeNode11.Text = "    Басовая домра";
             treeNode12.Name = "Node1";
-            treeNode12.Text = "Балалайки (не корабельные)";
+            treeNode12.Text = "Балалайки";
             treeNode13.Name = "Node71BalalaikaPrima";
             treeNode13.Text = "    Балалайка прима";
             treeNode14.Name = "Node72BalalaikaSecond";
@@ -242,12 +243,13 @@ namespace Instrumentation
             // 
             // button2
             // 
+            this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(111, 8);
+            this.button2.Location = new System.Drawing.Point(16, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(172, 41);
+            this.button2.Size = new System.Drawing.Size(123, 37);
             this.button2.TabIndex = 3;
             this.button2.Text = "Информация";
             this.button2.UseVisualStyleBackColor = true;
@@ -312,9 +314,9 @@ namespace Instrumentation
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Instrumentation.Properties.Resources.Speaker_Icon_1;
-            this.pictureBox2.Location = new System.Drawing.Point(966, 647);
+            this.pictureBox2.Location = new System.Drawing.Point(955, 649);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 32);
+            this.pictureBox2.Size = new System.Drawing.Size(44, 21);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 34;
             this.pictureBox2.TabStop = false;
