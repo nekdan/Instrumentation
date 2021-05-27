@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_607__Бенд" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\607. Бенд.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8108_1__Малая_дробь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8108-1. Малая дробь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_3__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-3. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1003_2__Арпеджиато_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1003-2. Арпеджиато пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8102__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8102. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_503__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\503- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1001__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1001. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_311_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\311-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7104_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7104-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_402_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\402-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7119_4__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7119-4. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_231_1__Ordinario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\231-1. Ordinario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_6__Вибрато_ускоряющееся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-6. Вибрато ускоряющееся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_2__Скрипка__альт__виолончель" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01-2. Скрипка, альт, виолончель.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_410__Переход_к_флаутандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\410. Переход к флаутандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_1__Длинное_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-1. Длинное легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8302_1__Удар_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8302-1. Удар медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8109_3__Вибрато_быстрое" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8109-3. Вибрато быстрое.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_912__Эффект_грома" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\912. Эффект грома.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_316_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_206_1__На_открытой_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\206-1. На открытой второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_4__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-4. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_1__Скрипка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01-1. Скрипка.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_403_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\403-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_405_1__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\405-1. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_506_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\506-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7104_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7104-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_319_2__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\319-2. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_4__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-4. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_6__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-6. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7107__Sub_ponticello_медиатором_и_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7107- Sub ponticello медиатором и пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_5__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-5. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_1__Легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-1. Легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_316_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_911__Эффект_гонга" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\911. Эффект гонга.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_2__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-2. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_10__Всё_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-10. Всё вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_315_2__Бартоковское_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315-2. Бартоковское пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_206_2__На_закрытой_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\206-2. На закрытой третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_2__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-2. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_315_1__Пиццикато__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315-1. Пиццикато. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_228__Коль_леньо__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\228. Коль леньо. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_1__Без_вибрато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-1. Без вибрато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_506_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\506-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_4__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-4. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_318__Коль_леньо_тратто" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\318. Коль леньо тратто.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8108_3__Обратная_дробь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8108-3. Обратная дробь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_417__Рикошет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\417. Рикошет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_203_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\203-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7112_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7112-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7402__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7402. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_310_4__Пережим___sub_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\310-4. Пережим + sub ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_213_3__Тремоло_смычком__С_чередованием_струн" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\213-3. Тремоло смычком. С чередованием струн.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1006__Глиссандо_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1006. Глиссандо медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7115_2__Пиццикато_средним_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7115-2. Пиццикато средним пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_422_2__Sul_tasto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\422-2. Sul tasto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_7__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-7. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_1__Длинное_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-1. Длинное легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_214_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\214-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8105_1__Пиццикато_большим_пальцем_правой_руки" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8105-1. Пиццикато большим пальцем правой руки.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_7__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-7. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_223_1__Пиццикато_правой_рукой" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\223-1. Пиццикато правой рукой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_216_2__Искусственный_флажолет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\216-2. Искусственный флажолет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_913__Эффект_ксилофона" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\913. Эффект ксилофона.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_36393E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36393E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7105_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7105-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7101__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7101. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_226_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\226-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_203_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\203-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_6__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-6. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_10__Всё_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-10. Всё вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7118_3__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7118-3. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7102_1__Одинарные_удары_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7102-1. Одинарные удары вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_307__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\307- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8305_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8305-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8106__Гитарный_приём" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8106. Гитарный приём.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_603_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\603-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_413_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\413-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_511_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\511-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_502_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\502-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7112_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7112-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_311_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\311-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_230__Коль_леньо_тратто___пережим" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\230. Коль леньо тратто + пережим.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_216_1__Натуральный_флажолет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\216-1. Натуральный флажолет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8305_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8305-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_8__Стаккато___копия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-8. Стаккато - копия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_6__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-6. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8201__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8201. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_2__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-2. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_304_1__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\304-1. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_907_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\907-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7117_2__Sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7117-2. Sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7113_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7113-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_502_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\502-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_908__Педальное_глиссандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\908- Педальное глиссандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7115_1__Пиццикато_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7115-1. Пиццикато большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_413_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\413-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_205_1__На_открытой_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\205-1. На открытой первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8203_2__Тремоло_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8203-2. Тремоло пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_603_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\603-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1012_1__Удар_ладонью_по_струнам" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1012-1. Удар ладонью по струнам.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7111_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7111-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_303_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\303-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7119_2__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7119-2. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8304_1__Восходящее_арпеджиато_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8304-1. Восходящее арпеджиато медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_606__Глиссандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\606. Глиссандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_5__Вибрато_сильное_и_медленное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-5. Вибрато сильное и медленное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_5__Контрабас" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01-5. Контрабас.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_505__Переход_к_флаутандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\505. Переход к флаутандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_211_5__Пережим___sub_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211-5. Пережим + sub ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_9__Всё_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-9. Всё вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_7__Вибрато_замедляющееся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-7. Вибрато замедляющееся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8401__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8401. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_611__Пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\611. Пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7102_3__Переменные_удары" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7102-3. Переменные удары.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_3__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-3. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_8__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-8. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_904__Глиссандо_разной_плотности" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\904- Глиссандо разной плотности.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_222__Пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\222- Пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8202_2__Удар_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8202-2. Удар большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_608_4__Большетерцовые" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\608-4. Большетерцовые.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_420_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\420-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_312__Глиссандо_натуральными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\312- Глиссандо натуральными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7104_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7104-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8102__Бряцание" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8102. Бряцание.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_420_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\420-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_609_2__Три_искусственных_флажолета" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\609-2. Три искусственных флажолета.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_409__От_колодки_к_кончику_смычка" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\409. От колодки к кончику смычка.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7116_2__Обратная_дробь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7116-2. Обратная дробь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_1__Длинное_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-1. Длинное легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7301__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7301. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_221__Рикошет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\221. Рикошет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_2__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-2. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7118_2__Нон_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7118-2. Нон легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7113_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7113-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_414__Глиссандо_натуральными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\414- Глиссандо натуральными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8204_1__Восходящее_арпеджиато_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8204-1. Восходящее арпеджиато медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_6__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-6. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7114__Искусственные_флажолеты_медиатором_на_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7114. Искусственные флажолеты медиатором на второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_8__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-8. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_8__Вибрато_усиливающееся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-8. Вибрато усиливающееся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_905_1__Натуральные_октавные_флажолеты_на_струнах_си__ля_соль_второй_октавы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\905-1. Натуральные октавные флажолеты на струнах си, ля соль второй октавы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2E3136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2E31361.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_203_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\203-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_4__Виолончель__контрабас" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01-4. Виолончель, контрабас.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7117_1__Ordinario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7117-1. Ordinario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_319_1__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\319-1. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_905_2__Натуральные_октавные_и_квинтовые_флажолеты_на_струнах_фа_второй_октавы___си_контроктавы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\905-2. Натуральные октавные и квинтовые флажолеты на струнах фа второй октавы - си контроктавы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_305_2__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\305-2. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_319_3__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\319-3. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8105_4__Подцеп" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8105-4. Подцеп.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_8__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-8. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1011__Натуральные_октавные_флажолеты" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1011. Натуральные октавные флажолеты.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_4__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-4. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_224__Бартоковское_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\224. Бартоковское пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_5__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-5. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_506_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\506-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_231__Коль_леньо_тратто___разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\231- Коль леньо тратто + разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_510_3__Бартоковское_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\510-3. Бартоковское пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_415_1__Натуральный_флажолет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\415-1. Натуральный флажолет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7201__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7201. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1002_2__Нисходящее_арпеджиато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1002-2. Нисходящее арпеджиато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_507__Глиссандо_натуральными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\507- Глиссандо натуральными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_420_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\420-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_3__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-3. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_504__Особые_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\504- Особые зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_226_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\226-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_204_3__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\204-3. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_910_3__Звукоизвлечение_ногтем_ближе_к_деке" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\910-3. Звукоизвлечение ногтем ближе к деке.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_406__Сурдины" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\406- Сурдины.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_604__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\604- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7118_1__Легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7118-1. Легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_402_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\402-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_213_1__Тремоло_левой_рукой" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\213-1. Тремоло левой рукой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_223_2__Пиццикато_левой_рукой" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\223-2. Пиццикато левой рукой.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_618_2__Щипок_ногтем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\618-2. Щипок ногтем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_403_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\403-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7303__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7303- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7103_1__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7103-1. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36393E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36393E1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7103_2__Тремоло_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7103-2. Тремоло пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_413_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\413-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1005_2__Арпеджиато___щипок_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1005-2. Арпеджиато + щипок пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_211_4__Пережим___sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211-4. Пережим + sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_4__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-4. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_5__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-5. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_903__Глиссандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\903- Глиссандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_418_1__Пиццикато__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\418-1. Пиццикато. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_5__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-5. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7119_5__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7119-5. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8304_2__Восходящее_арпеджиато_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8304-2. Восходящее арпеджиато большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_319_4__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\319-4. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_608_1__Октавные" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\608-1. Октавные.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7112_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7112-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_9__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-9. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_508__Хроматическая_гамма_искусственными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\508. Хроматическая гамма искусственными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_217__Хроматическая_гамма_искусственными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\217. Хроматическая гамма искусственными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_316_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7106__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7106- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_422__Коль_леньо_тратто___разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\422- Коль леньо тратто + разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_202_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\202-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7202__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7202- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7119_1__Легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7119-1. Легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_305_1__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\305-1. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_404_2__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\404-2. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_205_2__На_закрытой_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\205-2. На закрытой второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_214_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\214-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_605_3__Вибрато_быстрое" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\605-3. Вибрато быстрое.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_204_1__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\204-1. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_2__Портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-2. Портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8202_1__Удар_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8202-1. Удар медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8301__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8301. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_231_2__Sul_tasto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\231-2. Sul tasto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_8__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-8. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7119_3__Нон_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7119-3. Нон легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_506_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\506-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_413_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\413-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_226_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\226-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8103__Бряцание_по_приглушённым_струнам" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8103. Бряцание по приглушённым струнам.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_218__Глиссандо_искусственными_флажолетами" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\218. Глиссандо искусственными флажолетами.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_314__Рикошет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\314. Рикошет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_502_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\502-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_316_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\316-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_3__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-3. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8110_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8110-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_Stop-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_Stop-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8105_3__Одинарное_пиццикато__переменные_удары_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8105-3. Одинарное пиццикато (переменные удары).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7115_3__Пиццикато_левой_рукой___тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7115-3. Пиццикато левой рукой + тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_421__Коль_леньо__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\421. Коль леньо. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_608_2__Квинтовые" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\608-2. Квинтовые.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_310_1__Пережим_усиливающийся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\310-1. Пережим усиливающийся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_206_3__На_закрытой_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\206-3. На закрытой четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_3__Вибрато_медленное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-3. Вибрато медленное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_3__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-3. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8204_2__Восходящее_арпеджиато_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8204-2. Восходящее арпеджиато большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_7__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-7. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8109_1__Вибрато_обычное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8109-1. Вибрато обычное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_512__Коль_леньо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\512. Коль леньо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_1__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-1. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7110_1__Глиссандо___удар_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7110-1. Глиссандо + удар медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_613__Техническое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\613. Техническое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_501__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\501. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_302_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\302-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_2__Портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-2. Портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_605_2__Вибрато_обычное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\605-2. Вибрато обычное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1004_1__Удары_медиатором_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1004-1. Удары медиатором вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_303_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\303-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_310_2__Пережим___sul_tasto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\310-2. Пережим + sul tasto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7403__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7403- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8108_2__Большая_дробь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8108-2. Большая дробь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_9__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-9. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_9__Вибрато_не_сразу" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-9. Вибрато не сразу.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_202_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\202-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_6__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-6. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_2__Вибрато_обычное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-2. Вибрато обычное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_207__Сурдины" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\207- Сурдины.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_1__Длинное_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-1. Длинное легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_418_3__Бартоковское_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\418-3. Бартоковское пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7110_2__Глиссандо___тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7110-2. Глиссандо + тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7302__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7302. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_01_3__Скрипка__альт__виолончель" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01-3. Скрипка, альт, виолончель.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_615__Расгеадо_по_скрещённым_струнам" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\615. Расгеадо по скрещённым струнам.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8303_1__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8303-1. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7116_1__Большая_дробь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7116-1. Большая дробь.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_317__Коль_леньо__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\317. Коль леньо. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_210__Переход_к_флаутандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\210. Переход к флаутандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_306__Сурдины" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\306- Сурдины.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_4__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-4. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_420_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\420-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_211_1__Пережим_усиливающийся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211-1. Пережим усиливающийся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_201__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\201. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_502_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\502-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7113_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7113-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1002_1__Восходящее_арпеджиато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1002-1. Восходящее арпеджиато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8104__Тремоло" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8104. Тремоло.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_212_4__Вибрато_быстрое" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\212-4. Вибрато быстрое.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_311_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\311-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7401__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7401. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_408__Особые_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\408- Особые зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_404_1__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\404-1. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Безымянный" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Безымянный.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8403__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8403. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_311_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\311-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1004_2__Удары_медиатором_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1004-2. Удары медиатором вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_302_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\302-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_612__Бартоковское_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\612. Бартоковское пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_910_2__Звукоизвлечение_ногтем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\910-2. Звукоизвлечение ногтем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_608_3__Квартовые" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\608-3. Квартовые.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_204_2__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\204-2. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_422_3__Sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\422-3. Sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_2__Короткое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-2. Короткое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_422_1__Ordinario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\422-1. Ordinario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_902__Без_арпеджиато_и_с_арпеджиато__Хиндемит__Соната_для_арфы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\902- Без арпеджиато и с арпеджиато. Хиндемит, Соната для арфы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_3__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-3. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_309__Переход_к_флаутандо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\309. Переход к флаутандо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_402_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\402-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_3__Короткое_портато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-3. Короткое портато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PauseBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PauseBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1010_2__Sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1010-2. Sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_511_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\511-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_301__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\301. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7105_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7105-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_511_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\511-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_211_3__Пережим_усиливающийся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211-3. Пережим усиливающийся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_603_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\603-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1009_1__Звукоизвлечение_медиатором__мелодия_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1009-1. Звукоизвлечение медиатором (мелодия).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_510_1__Пиццикато__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\510-1. Пиццикато. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_415_2__Искусственный_флажолет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\415-2. Искусственный флажолет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_401__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\401. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_310_3__Пережим___sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\310-3. Пережим + sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_302_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\302-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8109_2__Вибрато_медленное" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8109-2. Вибрато медленное.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8105_2__Двойное_пиццикато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8105-2. Двойное пиццикато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_617__Тремоло_как_на_балалайке" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\617. Тремоло как на балалайке.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_5__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-5. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_7__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-7. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_202_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\202-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_229__Коль_леньо_тратто__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\229. Коль леньо тратто. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8112__Восходящее_техническое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8112- Восходящее техническое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8114__Техническое_легато__Мелодия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8114. Техническое легато. Мелодия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1009_2__Звукоизвлечение_пальцами__мелодия____копия" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1009-2. Звукоизвлечение пальцами (мелодия) - копия.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_313_7__Спиккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\313-7. Спиккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_5__Маркато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-5. Маркато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_901__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\901. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_209__Особые_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\209- Особые зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1003_1__Арпеджиато_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1003-1. Арпеджиато медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_220_10__Всё_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\220-10. Всё вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_6__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-6. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_226_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\226-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_202_4__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\202-4. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_605_1__Без_вибрато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\605-1. Без вибрато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7111_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7111-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8113__Нисходящее_техническое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8113- Нисходящее техническое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_233__Коль_леньо___рикошет" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\233. Коль леньо + рикошет.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_609_1__Три_натуральных_флажолета" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\609-1. Три натуральных флажолета.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_8__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-8. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_208__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\208- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_509_8__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\509-8. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8203_1__Тремоло_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8203-1. Тремоло медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_416_4__Деташе" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\416-4. Деташе.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7105_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7105-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8404_2__Восходящее_арпеджиато_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8404-2. Восходящее арпеджиато большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_1__Длинное_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-1. Длинное легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8101__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8101. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_909_2__Звукоизвлечение_ближе_к_деке" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\909-2. Звукоизвлечение ближе к деке.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_302_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\302-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_213_2__Тремоло_смычком__По_одной_и_той_же_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\213-2. Тремоло смычком. По одной и той же струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8302_2__Удар_большим_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8302-2. Удар большим пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8111__Искусственные_флажолеты_на_первой_струне_от_основного_тона_до_второй_октавы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8111. Искусственные флажолеты на первой струне от основного тона до второй октавы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_5__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-5. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_614__Расгеадо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\614. Расгеадо.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_511_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\511-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7102_2__Одинарные_удары_вверх" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7102-2. Одинарные удары вверх.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8110_1__На_первой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8110-1. На первой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_308__Особые_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\308- Особые зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_402_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\402-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_232_7__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\232-7. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_601__Диапазон" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\601. Диапазон.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1009_3__Звукоизвлечение_пальцами__аккорды_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1009-3. Звукоизвлечение пальцами (аккорды).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_405_2__На_четвёртой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\405-2. На четвёртой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_214_4__На_четвертой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\214-4. На четвертой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_423_7__Стаккато" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\423-7. Стаккато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_304_2__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\304-2. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8303_2__Тремоло_пальцем" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8303-2. Тремоло пальцем.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7111_3__На_третьей_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7111-3. На третьей струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7109_1__Вибрато_как_на_балалайке" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7109-1. Вибрато как на балалайке.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_616__Тамбурин" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\616. Тамбурин.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_319_5__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\319-5. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8404_1__Восходящее_арпеджиато_медиатором" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8404-1. Восходящее арпеджиато медиатором.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_214_2__На_второй_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\214-2. На второй струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_211_3__Пережим___sul_tasto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\211-3. Пережим + sul tasto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_9__Всё_вниз" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-9. Всё вниз.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_231_3__Sul_ponticello" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\231-3. Sul ponticello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2E3136" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2E3136.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_407__Разные_зоны_струны" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\407- Разные зоны струны.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_215__Глиссандо_натуральными_флажолетами_на_каждой_струне" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\215. Глиссандо натуральными флажолетами на каждой струне.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_219_6__Мартле" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\219-6. Мартле.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_411__Пережим_усиливающийся" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\411. Пережим усиливающийся.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8202__Без_арпеджиато_и_с_арпеджиато__Хиндемит__Соната_для_арфы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8202- Без арпеджиато и с арпеджиато. Хиндемит, Соната для арфы.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playBtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playBtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Speaker_Icon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Speaker_Icon_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
