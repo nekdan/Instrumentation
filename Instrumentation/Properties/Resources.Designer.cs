@@ -3815,6 +3815,16 @@ namespace Instrumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap popov {
+            get {
+                object obj = ResourceManager.GetObject("popov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Speaker_Icon_1 {
             get {
                 object obj = ResourceManager.GetObject("Speaker_Icon_1", resourceCulture);

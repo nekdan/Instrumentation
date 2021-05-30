@@ -36,5 +36,31 @@ namespace Instrumentation
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Size size = new Size(800, 600);
+           //Bitmap bitt = new(bit, size);
+           // bit = new Bitmap(bitt);
+            Form imgform = new infoForm((Bitmap)pictureBox2.Image);
+            imgform.ShowDialog();
+           // ImgForm imgForm = new ImgForm();
+           // imgForm.Show();
+        }
+    }
+
+    internal class infoForm : Form
+    {
+        private Bitmap image;
+
+        public infoForm(Bitmap image)
+        {
+            this.image = image;
+        }
     }
 }
