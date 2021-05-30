@@ -45,12 +45,20 @@ namespace Instrumentation
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Size size = new Size(800, 600);
-           //Bitmap bitt = new(bit, size);
-           // bit = new Bitmap(bitt);
-            Form imgform = new infoForm((Bitmap)pictureBox2.Image);
-            imgform.ShowDialog();
-           // ImgForm imgForm = new ImgForm();
-           // imgForm.Show();
+            //Bitmap bitt = new(bit, size);
+            // bit = new Bitmap(bitt);
+            //Form imgform = new infoForm((Bitmap)pictureBox2.Image);
+            //imgform.ShowDialog();
+
+            ImgForm form = new ImgForm();
+            form.Show();
+            // ImgForm imgForm = new ImgForm();
+            // imgForm.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

@@ -3342,5 +3342,22 @@ namespace Instrumentation
             }
 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            InfoForm infoForm = new InfoForm();
+            infoForm.Show();
+        }
+
+        private void folderBrowserDialog1_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var absolutePath = System.IO.Path.Combine(Application.StartupPath, @"sound");
+            System.Diagnostics.Process.Start("explorer", absolutePath);
+        }
     }
 }
