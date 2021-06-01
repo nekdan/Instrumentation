@@ -161,10 +161,12 @@ namespace Instrumentation
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // скругление кнопки            
+            // скругление кнопки
+            /*
             GraphicsPath play = new GraphicsPath();
             play.AddEllipse(0, 0, button1.Width - 2, button1.Height - 1);
             button1.Region = new Region(play);
+            */
             // 
             // richTextBox1
             // 
@@ -312,9 +314,11 @@ namespace Instrumentation
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // скругление кнопки
+            /*
             GraphicsPath stop = new GraphicsPath();
             stop.AddEllipse(0, 0, btnStop.Width-2, btnStop.Height-1);
             btnStop.Region = new Region(stop);
+            */
             // 
             // label1
             // 
