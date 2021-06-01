@@ -1,5 +1,6 @@
 ﻿
 using System.Drawing;
+using System.Drawing.Drawing2D;
 
 namespace Instrumentation
 {
@@ -160,14 +161,10 @@ namespace Instrumentation
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-
-            // скругление кнопки
-            System.Drawing.Drawing2D.GraphicsPath myPath =
-            new System.Drawing.Drawing2D.GraphicsPath();
-            myPath.AddEllipse(0, 0, button1.Width-2, button1.Height-1);
-            Region myRegion = new Region(myPath);
-            button1.Region = myRegion;
-
+            // скругление кнопки            
+            GraphicsPath play = new GraphicsPath();
+            play.AddEllipse(0, 0, button1.Width - 2, button1.Height - 1);
+            button1.Region = new Region(play);
             // 
             // richTextBox1
             // 
@@ -315,11 +312,9 @@ namespace Instrumentation
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // скругление кнопки
-            System.Drawing.Drawing2D.GraphicsPath myPath2 =
-            new System.Drawing.Drawing2D.GraphicsPath();
-            myPath2.AddEllipse(0, 0, btnStop.Width, btnStop.Height);
-            Region myRegion2 = new Region(myPath);
-            btnStop.Region = myRegion2;
+            GraphicsPath stop = new GraphicsPath();
+            stop.AddEllipse(0, 0, btnStop.Width-2, btnStop.Height-1);
+            btnStop.Region = new Region(stop);
             // 
             // label1
             // 
