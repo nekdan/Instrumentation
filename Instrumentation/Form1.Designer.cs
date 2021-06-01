@@ -1,4 +1,6 @@
 ﻿
+using System.Drawing;
+
 namespace Instrumentation
 {
     partial class Form1
@@ -158,6 +160,14 @@ namespace Instrumentation
             this.button1.TabIndex = 19;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+
+            // скругление кнопки
+            System.Drawing.Drawing2D.GraphicsPath myPath =
+            new System.Drawing.Drawing2D.GraphicsPath();
+            myPath.AddEllipse(0, 0, button1.Width-2, button1.Height-1);
+            Region myRegion = new Region(myPath);
+            button1.Region = myRegion;
+
             // 
             // richTextBox1
             // 
@@ -300,10 +310,16 @@ namespace Instrumentation
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStop.Location = new System.Drawing.Point(69, 647);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(56, 48);
+            this.btnStop.Size = new System.Drawing.Size(51, 48);
             this.btnStop.TabIndex = 32;
             this.btnStop.UseVisualStyleBackColor = false;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // скругление кнопки
+            System.Drawing.Drawing2D.GraphicsPath myPath2 =
+            new System.Drawing.Drawing2D.GraphicsPath();
+            myPath2.AddEllipse(0, 0, btnStop.Width, btnStop.Height);
+            Region myRegion2 = new Region(myPath);
+            btnStop.Region = myRegion2;
             // 
             // label1
             // 
