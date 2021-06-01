@@ -149,7 +149,7 @@ namespace Instrumentation
                 string a = file.Replace(path, "");
                 if (a.EndsWith("wav"))
                 {
-                    a = a.Replace("wav", "");
+                    a = a.Replace(".wav", "");
 
                 }
                 listBox1.Items.Add(a);
