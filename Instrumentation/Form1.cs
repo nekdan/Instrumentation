@@ -165,12 +165,15 @@ namespace Instrumentation
             {
                 if (cont == 1)
                 {
+                    richTextBox1.Text = null;
+                    pictureBox1.Image = null;
                     if (listBox1.SelectedIndex < 6)
                     {
                         richTextBox1.Text = "Используется главный приём игры — áрко, при котором звукоизвлечение совершается ведением волоса смычка по струне. Этот приём игры используется по умолчанию при отсутствии указаний на другой основной приём — пиццикато, коль леньо, коль леньо тратто";
                         if (listBox1.SelectedIndex < 1)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 2)
                         {
@@ -221,7 +224,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 2)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -250,7 +253,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 7)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
@@ -276,7 +279,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 11)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 12)
                         {
@@ -301,7 +304,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 15)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 16)
                         {
@@ -321,7 +324,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 18)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 19)
                         {
@@ -341,13 +344,16 @@ namespace Instrumentation
                     }
                     else if (listBox1.SelectedIndex < 26)
                     {
-                        //7
+                        //7                        
                         richTextBox1.Text = "Сурди́на — это приспособление в форме гребешка, шайбы или бабочки, надеваемое на подставку или приставляемое к ней со стороны подгрифника. Наиболее крупные сурдины из металла или резины в форме гребешка называются глушителями и используются в основном в бытовых, а не художественных целях" +
                                             "\r\rКак правило, композиторы не уточняют в нотах материал сурдины, хотя от него зависит итоговое звучание.Установка сурдины обозначается con sord., снятие — senza sord. или via sord." +
                                             "\r\rПриём игры — арко";
                         pictureBox1.Image = Resources._207__Сурдины;
-
-
+                        if (listBox1.SelectedIndex < 22)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 30)
@@ -355,7 +361,11 @@ namespace Instrumentation
                         //8
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._208__Разные_зоны_струны;
-
+                        if (listBox1.SelectedIndex < 27)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
 
                     }
@@ -364,6 +374,11 @@ namespace Instrumentation
                         //9
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._209__Особые_зоны_струны;
+                        if (listBox1.SelectedIndex < 31)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 37)
@@ -380,6 +395,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 38)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 39)
                         {
@@ -413,6 +429,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 45)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 46)
                         {
@@ -461,7 +478,7 @@ namespace Instrumentation
                         //13
                         if (listBox1.SelectedIndex < 55)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
 
                         }
@@ -491,7 +508,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 59)
                         {
                             pictureBox1.Image = null;
-
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 60)
                         {
@@ -526,6 +543,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 65)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 66)
                         {
@@ -554,7 +572,7 @@ namespace Instrumentation
                         //19
                         if (listBox1.SelectedIndex < 70)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 71)
@@ -613,7 +631,7 @@ namespace Instrumentation
                         //20
                         if (listBox1.SelectedIndex < 81)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 82)
@@ -678,11 +696,16 @@ namespace Instrumentation
                         //22
                         richTextBox1.Text = "Пиццикáто — щипок струны. По умолчанию осуществляется пальцем правой руки";
                         pictureBox1.Image = Resources._222__Пиццикато;
+                        if (listBox1.SelectedIndex < 93)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 98)
                     {
                         //23
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 96)
                         {
                             pictureBox1.Image = null;
@@ -705,7 +728,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 100)
                     {
                         //25
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 105)
@@ -715,6 +738,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 101)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 102)
                         {
@@ -737,7 +761,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 106)
                     {
                         //27
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 107)
@@ -755,30 +779,27 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 109)
                     {
                         //30
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._230__Коль_леньо_тратто___пережим;
                     }
                     else if (listBox1.SelectedIndex < 114)
                     {
                         //31
-                        richTextBox1.Text = "";
-                        if (listBox1.SelectedIndex < 100)
-                        {
-                            pictureBox1.Image = null;
-                        }
-                        else if (listBox1.SelectedIndex < 101)
+                        richTextBox1.Text = null;
+                        pictureBox1.Image = null;
+                        if (listBox1.SelectedIndex < 110)
                         {
                             pictureBox1.Image = Resources._231__Коль_леньо_тратто___разные_зоны_струны;
                         }
-                        else if (listBox1.SelectedIndex < 102)
+                        else if (listBox1.SelectedIndex < 111)
                         {
                             pictureBox1.Image = Resources._231_1__Ordinario;
                         }
-                        else if (listBox1.SelectedIndex < 103)
+                        else if (listBox1.SelectedIndex < 112)
                         {
                             pictureBox1.Image = Resources._231_2__Sul_tasto;
                         }
-                        else if (listBox1.SelectedIndex < 104)
+                        else if (listBox1.SelectedIndex < 113)
                         {
                             pictureBox1.Image = Resources._231_3__Sul_ponticello;
                         }
@@ -788,7 +809,7 @@ namespace Instrumentation
                         //32
                         if (listBox1.SelectedIndex < 115)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 116)
@@ -848,13 +869,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 126)
                     {
                         //35
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 127)
                     {
                         //36
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                 }
@@ -864,8 +885,6 @@ namespace Instrumentation
             {
                 if (cont == 3)
                 {
-
-
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -1039,7 +1058,7 @@ namespace Instrumentation
                         //13
                         if (listBox1.SelectedIndex < 48)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 49)
@@ -1104,7 +1123,7 @@ namespace Instrumentation
                         //15
                         if (listBox1.SelectedIndex < 60)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 61)
@@ -1121,7 +1140,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 68)
                     {
                         //16
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 64)
                         {
                             pictureBox1.Image = null;
@@ -1160,7 +1179,7 @@ namespace Instrumentation
                         //19
                         if (listBox1.SelectedIndex < 70)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 71)
@@ -1380,7 +1399,7 @@ namespace Instrumentation
                         //16
                         if (listBox1.SelectedIndex < 47)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 48)
@@ -1435,7 +1454,7 @@ namespace Instrumentation
                         //18
                         if (listBox1.SelectedIndex < 57)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 58)
@@ -1446,7 +1465,7 @@ namespace Instrumentation
                         else if (listBox1.SelectedIndex < 59)
                         {
                             pictureBox1.Image = null;
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 60)
                         {
@@ -1456,13 +1475,13 @@ namespace Instrumentation
                         else if (listBox1.SelectedIndex < 61)
                         {
                             pictureBox1.Image = null;
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                         }
                     }
                     else if (listBox1.SelectedIndex < 62)
                     {
                         //19
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 67)
@@ -1522,7 +1541,7 @@ namespace Instrumentation
                         //23
                         if (listBox1.SelectedIndex < 73)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 74)
@@ -1575,21 +1594,21 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 87)
                     {
                         //25
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
 
                     }
                     else if (listBox1.SelectedIndex < 92)
                     {
                         //26
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
 
                     }
                     else if (listBox1.SelectedIndex < 98)
                     {
                         //27
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
 
                     }
@@ -1693,7 +1712,7 @@ namespace Instrumentation
                         //9
                         if (listBox1.SelectedIndex < 29)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 30)
@@ -1747,7 +1766,7 @@ namespace Instrumentation
                         //10
                         if (listBox1.SelectedIndex < 39)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 40)
@@ -1757,7 +1776,7 @@ namespace Instrumentation
                         }
                         else if (listBox1.SelectedIndex < 41)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 42)
@@ -1767,7 +1786,7 @@ namespace Instrumentation
                         }
                         else if (listBox1.SelectedIndex < 43)
                         {
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                     }
@@ -1805,7 +1824,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 50)
                     {
                         //13
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                 }
@@ -1825,7 +1844,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 2)
                     {
                         //2
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 6)
@@ -1852,7 +1871,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 11)
                     {
                         //4
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._604__Разные_зоны_струны;
                     }
                     else if (listBox1.SelectedIndex < 15)
@@ -1937,7 +1956,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 27)
                     {
                         //10
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 28)
@@ -1979,13 +1998,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 34)
                     {
                         //17
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._617__Тремоло_как_на_балалайке;
                     }
                     else if (listBox1.SelectedIndex < 37)
                     {
                         //18
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._618_2__Щипок_ногтем;
                     }
                     else if (listBox1.SelectedIndex < 38)
@@ -2016,7 +2035,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 5)
                     {
                         //2
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 2)
                         {
                             pictureBox1.Image = null;
@@ -2102,13 +2121,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 24)
                     {
                         //7
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._7107__Sub_ponticello_медиатором_и_пальцем;
                     }
                     else if (listBox1.SelectedIndex < 25)
                     {
                         //8
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
 
                     }
@@ -2273,7 +2292,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 58)
                     {
                         //18
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 55)
                         {
                             pictureBox1.Image = null;
@@ -2294,7 +2313,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 64)
                     {
                         //19
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 59)
                         {
                             pictureBox1.Image = null;
@@ -2323,7 +2342,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 65)
                     {
                         //20
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                 }
@@ -2362,7 +2381,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 2)
                     {
                         //2
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._7302__Тремоло_медиатором;
                     }
                     else if (listBox1.SelectedIndex < 7)
@@ -2388,7 +2407,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 2)
                     {
                         //2
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._7402__Тремоло_медиатором;
                     }
                     else if (listBox1.SelectedIndex < 7)
@@ -2436,12 +2455,12 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 5)
                         {
                             pictureBox1.Image = null;
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 6)
                         {
                             pictureBox1.Image = Resources._8105_1__Пиццикато_большим_пальцем_правой_руки;
-                            richTextBox1.Text = "";
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 7)
                         {
@@ -2558,13 +2577,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 37)
                     {
                         //15
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 38)
                     {
                         //16
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                 }
@@ -2731,13 +2750,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 2)
                     {
                         //2
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 3)
                     {
                         //3
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = Resources._8403__Тремоло_медиатором;
                     }
                     else if (listBox1.SelectedIndex < 6)
@@ -2884,7 +2903,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 43)
                     {
                         //14
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 44)
@@ -2944,7 +2963,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 10)
                     {
                         //4
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 8)
                         {
                             pictureBox1.Image = null;
@@ -2961,7 +2980,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 13)
                     {
                         //5
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 11)
                         {
                             pictureBox1.Image = null;
@@ -3001,13 +3020,13 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 18)
                     {
                         //8
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 22)
                     {
                         //9
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 19)
                         {
                             pictureBox1.Image = null;
@@ -3028,7 +3047,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 25)
                     {
                         //10
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 23)
                         {
                             pictureBox1.Image = null;
@@ -3051,7 +3070,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 29)
                     {
                         //12
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 27)
                         {
                             pictureBox1.Image = null;
@@ -3068,7 +3087,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 34)
                     {
                         //13
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 30)
                         {
                             pictureBox1.Image = null;
@@ -3093,7 +3112,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 37)
                     {
                         //14
-                        richTextBox1.Text = "";
+                        richTextBox1.Text = null;
                         if (listBox1.SelectedIndex < 35)
                         {
                             pictureBox1.Image = null;
