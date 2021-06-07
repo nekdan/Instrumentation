@@ -992,16 +992,24 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 25)
                     {
                         //7
-                        //остановился здесь
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._307__Разные_зоны_струны;
-
+                        if (listBox1.SelectedIndex < 22)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 31)
                     {
                         //8
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._308__Особые_зоны_струны;
+                        if (listBox1.SelectedIndex < 26)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 32)
@@ -1017,6 +1025,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 33)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 34)
                         {
@@ -1042,6 +1051,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 38)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 39)
                         {
@@ -1065,6 +1075,11 @@ namespace Instrumentation
                         //12
                         richTextBox1.Text = "Глиссандо выполняется с помощью передвижения пальца левой руки вдоль струны \r\rЗдесь глиссандо и флажолеты исполняются на основе арко";
                         pictureBox1.Image = Resources._312__Глиссандо_натуральными_флажолетами;
+                        if (listBox1.SelectedIndex < 43)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 58)
@@ -1191,32 +1206,32 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 76)
                     {
                         //19
-                        if (listBox1.SelectedIndex < 70)
+                        if (listBox1.SelectedIndex < 71)
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
-                        else if (listBox1.SelectedIndex < 71)
+                        else if (listBox1.SelectedIndex < 72)
                         {
                             richTextBox1.Text = "Атака звуков мягкая, сглаженная. Между звуками нет паузы. Смычок не отрывается от струн. Несколько звуков исполняется на одном направлении ведения смычка \r\rПриём игры — коль леньо тратто";
                             pictureBox1.Image = Resources._319_1__Короткое_легато;
                         }
-                        else if (listBox1.SelectedIndex < 72)
+                        else if (listBox1.SelectedIndex < 73)
                         {
                             richTextBox1.Text = "Атака звуков подчёркнутая, смягчённая. Между звуками есть микропауза. Смычок не отрывается от струн. Несколько звуков исполняется на одном направлении ведения смычка \r\rПриём игры — коль леньо тратто";
                             pictureBox1.Image = Resources._319_2__Короткое_портато;
                         }
-                        else if (listBox1.SelectedIndex < 73)
+                        else if (listBox1.SelectedIndex < 74)
                         {
                             richTextBox1.Text = "Атака звуков отчётливая. Между звуками нет паузы. Смычок не отрывается от струн. Каждый следующий звук исполняется другим направлением ведения смычка (поочерёдно вниз и вверх) \r\rПриём игры — коль леньо тратто";
                             pictureBox1.Image = Resources._319_3__Деташе;
                         }
-                        else if (listBox1.SelectedIndex < 74)
+                        else if (listBox1.SelectedIndex < 75)
                         {
                             richTextBox1.Text = "Атака звуков острая и акцентированная. Между звуками есть пауза. Смычок не отрывается от струн. Каждый следующий звук исполняется другим направлением ведения смычка(поочерёдно вниз и вверх) \r\rПриём игры — коль леньо тратто";
                             pictureBox1.Image = Resources._319_4__Мартле;
                         }
-                        else if (listBox1.SelectedIndex < 75)
+                        else if (listBox1.SelectedIndex < 76)
                         {
                             richTextBox1.Text = "Атака звуков плотная, твёрдая. Между звуками есть пауза. Смычок отрывается от струн \r\rПриём игры — коль леньо тратто";
                             pictureBox1.Image = Resources._319_5__Всё_вниз;
