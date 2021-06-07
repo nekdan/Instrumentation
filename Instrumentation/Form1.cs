@@ -898,6 +898,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 2)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -921,16 +922,18 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 9)
                     {
                         //3
+                        pictureBox1.Image = null;
                         richTextBox1.Text = "Первая струна звучит в своём низком регистре (низкая позиция левой руки), вторая — в среднем (средняя позиция) \r\rПриём игры — арко";
                         if (listBox1.SelectedIndex < 7)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
                             pictureBox1.Image = Resources._303_1__На_первой_струне;
                         }
-                        if (listBox1.SelectedIndex < 9)
+                        else if (listBox1.SelectedIndex < 9)
                         {
                             pictureBox1.Image = Resources._303_2__На_второй_струне;
                         }
@@ -942,6 +945,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 10)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 11)
                         {
@@ -959,6 +963,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 13)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -973,12 +978,21 @@ namespace Instrumentation
                     {
                         //6
                         richTextBox1.Text = "Сурдина — это приспособление в форме гребешка, шайбы или бабочки, надеваемое на подставку или приставляемое к ней со стороны подгрифника. Наиболее крупные сурдины из металла или резины в форме гребешка называются глушителями и используются в основном в бытовых, а не художественных целях \r\rКак правило, композиторы не уточняют в нотах материал сурдины, хотя от него во многом зависит итоговое звучание. Установка сурдины обозначается con sord., снятие — senza sord. или via sord. \r\rПриём игры — арко";
-                        pictureBox1.Image = Resources._306__Сурдины;
+                        if (listBox1.SelectedIndex < 16)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
+                        else if (listBox1.SelectedIndex < 21)
+                        {
+                            pictureBox1.Image = Resources._306__Сурдины;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 25)
                     {
                         //7
+                        //остановился здесь
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._307__Разные_зоны_струны;
 
