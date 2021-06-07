@@ -1259,6 +1259,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 2)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -1284,6 +1285,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 7)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
@@ -1301,6 +1303,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 10)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 11)
                         {
@@ -1318,6 +1321,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 13)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -1333,6 +1337,11 @@ namespace Instrumentation
                         //6
                         richTextBox1.Text = "Сурдина — это приспособление в форме гребешка, шайбы или бабочки, надеваемое на подставку или приставляемое к ней со стороны подгрифника. Наиболее крупные сурдины из металла или резины в форме гребешка называются глушителями и используются в основном в бытовых, а не художественных целях\r\rКак правило, композиторы не уточняют в нотах материал сурдины, хотя от него во многом зависит итоговое звучание. Установка сурдины обозначается con sord., снятие — senza sord. или via sord.\r\rПриём игры — арко";
                         pictureBox1.Image = Resources._406__Сурдины;
+                        if (listBox1.SelectedIndex < 16)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 23)
@@ -1340,6 +1349,11 @@ namespace Instrumentation
                         //7
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._407__Разные_зоны_струны;
+                        if (listBox1.SelectedIndex < 20)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 29)
@@ -1347,6 +1361,11 @@ namespace Instrumentation
                         //8
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._408__Особые_зоны_струны;
+                        if (listBox1.SelectedIndex < 24)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 30)
@@ -1380,6 +1399,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 34)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 35)
                         {
@@ -1403,6 +1423,11 @@ namespace Instrumentation
                         //14
                         richTextBox1.Text = "По умолчанию глиссандо выполняется с помощью передвижения пальца левой руки вдоль прижимаемой им струны \r\rЗдесь глиссандо и флажолеты исполняются на основе арко";
                         pictureBox1.Image = Resources._414__Глиссандо_натуральными_флажолетами;
+                        if (listBox1.SelectedIndex < 39)
+                        {
+                            pictureBox1.Image = null;
+                            richTextBox1.Text = null;
+                        }
 
 
                     }
@@ -1413,6 +1438,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 44)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 45)
                         {
@@ -1520,6 +1546,7 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 63)
                         {
                             pictureBox1.Image = null;
+                            richTextBox1.Text = null;
                         }
                         else if (listBox1.SelectedIndex < 64)
                         {
