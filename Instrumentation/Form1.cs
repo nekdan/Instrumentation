@@ -158,15 +158,13 @@ namespace Instrumentation
 
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();            
 
-            //таблица 1
+            //таблица 1 - Смычковые струнные инструменты
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 1)
                 {
-                    richTextBox1.Text = null;
-                    pictureBox1.Image = null;
                     if (listBox1.SelectedIndex < 6)
                     {
                         richTextBox1.Text = "Используется главный приём игры — áрко, при котором звукоизвлечение совершается ведением волоса смычка по струне. Этот приём игры используется по умолчанию при отсутствии указаний на другой основной приём — пиццикато, коль леньо, коль леньо тратто";
@@ -203,13 +201,11 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 2
+            //таблица 2 - Скрипка
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 2)
                 {
-
-
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -880,11 +876,13 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 3
+            //таблица 3 - Альт
             listBox1.SelectedIndexChanged += (s, a) =>
             {
-                if (cont == 3)
+                if (cont == 3 && listBox1.SelectedIndex == 0)
                 {
+                    richTextBox1.Text = null;
+                    pictureBox1.Image = null;
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -1239,13 +1237,13 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 4
+            //таблица 4 - Виолончель
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 4)
                 {
-
-
+                    richTextBox1.Text = null;
+                    pictureBox1.Image = null;
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -1668,9 +1666,9 @@ namespace Instrumentation
                         pictureBox1.Image = null;
 
                     }
-                }
+                }                
             };
-            //таблица 5
+            //таблица 5 - Контрабас
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 5)
@@ -1684,9 +1682,10 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 6)
                     {
                         //2
-                        richTextBox1.Text = "Каждая струна звучит в своём низком регистре, поскольку левая рука находится в низкой позиции\r\rПриём игры — арко ";
+                        richTextBox1.Text = "Каждая струна звучит в своём низком регистре, поскольку левая рука находится в низкой позиции\r\rПриём игры — арко";
                         if (listBox1.SelectedIndex < 2)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
@@ -1711,13 +1710,22 @@ namespace Instrumentation
                         //3
                         richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._503__Разные_зоны_струны;
-
+                        if (listBox1.SelectedIndex < 7)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 16)
                     {
                         //4
-                        richTextBox1.Text = "Приём игры — арко ";
+                        richTextBox1.Text = "Приём игры — арко";
                         pictureBox1.Image = Resources._504__Особые_зоны_струны;
+                        if (listBox1.SelectedIndex < 11)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
 
                     }
                     else if (listBox1.SelectedIndex < 17)
@@ -1732,6 +1740,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д. \r\rНатуральный флажолет исполняется на открытой струне";
                         if (listBox1.SelectedIndex < 18)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 19)
@@ -1756,6 +1765,11 @@ namespace Instrumentation
                         //7
                         richTextBox1.Text = "Глиссандо выполняется с помощью передвижения пальца левой руки вдоль струны \r\rЗдесь глиссандо и флажолеты исполняются на основе арко";
                         pictureBox1.Image = Resources._507__Глиссандо_натуральными_флажолетами;
+                        if (listBox1.SelectedIndex < 23)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 28)
                     {
@@ -1852,6 +1866,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Здесь флажолеты исполняются на основе пиццикато";
                         if (listBox1.SelectedIndex < 44)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 45)
@@ -3190,6 +3205,8 @@ namespace Instrumentation
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
+            richTextBox1.Text = null;
+            pictureBox1.Image = null;
             if (treeView1.SelectedNode.Name == "Node0SmoothedSI")
             {
                 readTypeFiles(@"sound\01. Смычковые струнные инструменты\");
@@ -3268,7 +3285,6 @@ namespace Instrumentation
             else if (treeView1.SelectedNode.Name == "Node9KeyboardHarp")
             {
                 readTypeFiles(@"sound\10. Клавишные гусли\");
-
                 cont = 16;
             }
         }
