@@ -1900,7 +1900,7 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 6
+            //таблица 6 - Классическая гитара
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 6)
@@ -1924,6 +1924,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Первая струна звучит в своём низком регистре (низкая позиция левой руки), каждая следующая — в более высоком";
                         if (listBox1.SelectedIndex < 3)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 4)
@@ -1944,6 +1945,11 @@ namespace Instrumentation
                         //4
                         richTextBox1.Text = null;
                         pictureBox1.Image = Resources._604__Разные_зоны_струны;
+                        if (listBox1.SelectedIndex < 7)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 15)
                     {
@@ -1951,6 +1957,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Вибрато образуется при периодических колебаниях звука по высоте, громкости и тембру. Один из параметров всегда преобладает, у струнных инструментов — высота. На гитаре вибрато исполняется колебательным движением левой руки или её части, которое передаётся пальцу, прижимающему струну";
                         if (listBox1.SelectedIndex < 12)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 13)
@@ -1984,6 +1991,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с щипком. Сразу после щипка прикасающийся палец должен прервать контакт со струной. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон \r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.";
                         if (listBox1.SelectedIndex < 18)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 19)
@@ -2013,6 +2021,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Натуральный флажолет исполняется на открытой струне, искусственный — на закрытой: один палец прижимает струну, а другой одновременно к ней прикасается ";
                         if (listBox1.SelectedIndex < 24)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 25)
@@ -2077,6 +2086,10 @@ namespace Instrumentation
                         //18
                         richTextBox1.Text = null;
                         pictureBox1.Image = Resources._618_2__Щипок_ногтем;
+                        if (listBox1.SelectedIndex < 35)
+                        {
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 38)
                     {
@@ -2089,10 +2102,14 @@ namespace Instrumentation
                         //20
                         richTextBox1.Text = "Гóльпе ― удар пальцем не по струне";
                         pictureBox1.Image = null;
+                        if (listBox1.SelectedIndex < 39)
+                        {
+                            richTextBox1.Text = null;
+                        }
                     }
                 }
             };
-            //таблица 7
+            //таблица 7 - Домры
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 7)
