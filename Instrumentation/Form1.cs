@@ -2109,7 +2109,7 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 7 - Домры
+            //таблица 7 - Малая домра
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 7)
@@ -2147,6 +2147,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Тремоло исполняется быстрым чередованием ударов правой руки внизвверх по одной, двум или трём струнам сразу. По умолчанию на всех домрах звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 6)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 7)
@@ -2164,6 +2165,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Каждая струна звучит в своём низком регистре, поскольку левая рука находится в низкой позиции \r\rПриём игры — тремоло медиатором";
                         if (listBox1.SelectedIndex < 9)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 10)
@@ -2185,6 +2187,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Первая струна звучит в своём низком регистре (низкая позиция левой руки), каждая следующая — в более высоком \r\rПриём игры — тремоло медиатором";
                         if (listBox1.SelectedIndex < 13)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 14)
@@ -2225,6 +2228,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Вибрато образуется при периодических колебаниях звука по высоте, громкости и тембру. Один из параметров всегда преобладает, у струнных инструментов — высота";
                         if (listBox1.SelectedIndex < 26)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 27)
@@ -2242,6 +2246,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию глиссандо выполняется с помощью передвижения пальца левой руки вдоль прижимаемой им струны";
                         if (listBox1.SelectedIndex < 29)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 30)
@@ -2259,6 +2264,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с ударом медиатора. Сразу после звукоизвлечения прикасающийся палец должен прервать контакт со струной. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон \r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д. \r\rНатуральный флажолет исполняется на открытой струне ";
                         if (listBox1.SelectedIndex < 32)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 33)
@@ -2280,6 +2286,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с щипком. Сразу после щипка прикасающийся палец должен прервать контакт со струной. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон \r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.\r\rНатуральный флажолет исполняется на открытой струне ";
                         if (listBox1.SelectedIndex < 36)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 37)
@@ -2301,6 +2308,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с тремоло медиатором. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон\r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.\r\rНатуральный флажолет исполняется на открытой струне ";
                         if (listBox1.SelectedIndex < 40)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 41)
@@ -2328,6 +2336,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Пиццикато — щипок струны пальцем";
                         if (listBox1.SelectedIndex < 45)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 46)
@@ -2349,6 +2358,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Большая дробь на домре — быстрая последовательность ударов вниз по всем струнам пятым, четвёртым, третьим пальцами и медиатором. При обратной дроби совершаются удары вверх третьим, четвёртым и пятым пальцами";
                         if (listBox1.SelectedIndex < 49)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 50)
@@ -2366,6 +2376,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Струна приглушается полуприжатием её к грифу левой рукой";
                         if (listBox1.SelectedIndex < 52)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 53)
@@ -2435,7 +2446,7 @@ namespace Instrumentation
                     }
                 }
             };
-            //таблица 8
+            //таблица 8 - Домра пикколо
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 8)
@@ -3303,6 +3314,14 @@ namespace Instrumentation
             {
                 readTypeFiles(@"sound\10. Клавишные гусли\");
                 cont = 16;
+            }
+            else if (treeView1.SelectedNode.Name == "Node0")
+            {
+                readTypeFiles(@"sound\");
+            }
+            else if (treeView1.SelectedNode.Name == "Node1")
+            {
+                readTypeFiles(@"sound\");
             }
         }
 
