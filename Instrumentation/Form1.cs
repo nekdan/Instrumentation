@@ -2457,15 +2457,21 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на всех домрах звук извлекается медиатором";
                         pictureBox1.Image = Resources._7201__Диапазон;
                     }
-                    else if (listBox1.SelectedIndex < 4)
+                    else if (listBox1.SelectedIndex < 2)
                     {
                         //2
+                        richTextBox1.Text = null;
+                        pictureBox1.Image = null;
+                    }
+                    else if (listBox1.SelectedIndex < 4)
+                    {
+                        //3-4
                         richTextBox1.Text = "По умолчанию на всех домрах звук извлекается медиатором";
                         pictureBox1.Image = Resources._7202__Разные_зоны_струны;
                     }
                 }
             };
-            //таблица 9
+            //таблица 9 - Альтовая домра
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 9)
@@ -2483,15 +2489,21 @@ namespace Instrumentation
                         richTextBox1.Text = null;
                         pictureBox1.Image = Resources._7302__Тремоло_медиатором;
                     }
-                    else if (listBox1.SelectedIndex < 7)
+                    else if (listBox1.SelectedIndex < 3)
                     {
                         //3
+                        richTextBox1.Text = null;
+                        pictureBox1.Image = null;
+                    }
+                    else if (listBox1.SelectedIndex < 7)
+                    {
+                        //4-7
                         richTextBox1.Text = "По умолчанию на всех домрах звук извлекается медиатором";
                         pictureBox1.Image = Resources._7303__Разные_зоны_струны;
                     }
                 }
             };
-            //таблица 10
+            //таблица 10 - Басовая домра
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 10)
@@ -2509,9 +2521,15 @@ namespace Instrumentation
                         richTextBox1.Text = null;
                         pictureBox1.Image = Resources._7402__Тремоло_медиатором;
                     }
-                    else if (listBox1.SelectedIndex < 7)
+                    else if (listBox1.SelectedIndex < 3)
                     {
                         //3
+                        richTextBox1.Text = null;
+                        pictureBox1.Image = null;
+                    }
+                    else if (listBox1.SelectedIndex < 7)
+                    {
+                        //4-7
                         richTextBox1.Text = "По умолчанию на всех домрах звук извлекается медиатором";
                         pictureBox1.Image = Resources._7403__Разные_зоны_струны;
                     }
