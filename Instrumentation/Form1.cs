@@ -2719,7 +2719,7 @@ namespace Instrumentation
                 }
 
             };
-            //таблица 12
+            //таблица 12 - Балалайка секунда
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 12)
@@ -2753,6 +2753,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на балалайке секунде звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 5)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 6)
@@ -2770,6 +2771,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на балалайке секунде звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 8)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 9)
@@ -2784,7 +2786,7 @@ namespace Instrumentation
 
                 };
             };
-            //таблица 13
+            //таблица 13 - Балалайка альт
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 13)
@@ -2801,6 +2803,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на балалайке альте звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 2)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
@@ -2818,6 +2821,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на балалайке альте звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 5)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 6)
@@ -2835,6 +2839,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на балалайке альте звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 8)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 9)
@@ -2852,6 +2857,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с щипком. Сразу после щипка прикасающийся палец должен прервать контакт со струной. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон\r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.\r\rНатуральный флажолет исполняется на открытой струне";
                         if (listBox1.SelectedIndex < 11)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 12)
@@ -2866,7 +2872,7 @@ namespace Instrumentation
 
                 };
             };
-            //таблица 14
+            //таблица 14 - Балалайка контрабас
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 14)
@@ -2893,15 +2899,16 @@ namespace Instrumentation
                     {
                         //4
                         richTextBox1.Text = "По умолчанию на балалайке контрабасе звук извлекается медиатором";
-                        if (listBox1.SelectedIndex < 5)
+                        if (listBox1.SelectedIndex < 4)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
-                        else if (listBox1.SelectedIndex < 4)
+                        else if (listBox1.SelectedIndex < 5)
                         {
                             pictureBox1.Image = Resources._8404_1__Восходящее_арпеджиато_медиатором;
                         }
-                        if (listBox1.SelectedIndex < 5)
+                        else if (listBox1.SelectedIndex < 6)
                         {
                             pictureBox1.Image = Resources._8404_2__Восходящее_арпеджиато_большим_пальцем;
                         }
