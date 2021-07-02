@@ -2916,7 +2916,7 @@ namespace Instrumentation
 
                 };
             };
-            //таблица 15
+            //таблица 15 - Арфа
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 15)
@@ -2932,18 +2932,33 @@ namespace Instrumentation
                         //2
                         richTextBox1.Text = "Существует два способа исполнения аккорда: арпеджиато или без арпеджиато. Предполагается, что звуки аккорда, записанного в нотах без волнистой линии, извлекаются одновременно. Однако арфисты нередко применяют арпеджиато по своему усмотрению";
                         pictureBox1.Image = Resources._902__Без_арпеджиато_и_с_арпеджиато__Хиндемит__Соната_для_арфы;
+                        if (listBox1.SelectedIndex < 2)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 9)
                     {
                         //3
                         richTextBox1.Text = "Глиссандо исполняется проведением одного и того же пальца по всем струнам последовательно в указанном диапазоне";
                         pictureBox1.Image = Resources._903__Глиссандо;
+                        if (listBox1.SelectedIndex < 5)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 12)
                     {
                         //4
                         richTextBox1.Text = "Глиссандо исполняется проведением одного и того же пальца по всем струнам последовательно в указанном диапазоне";
                         pictureBox1.Image = Resources._904__Глиссандо_разной_плотности;
+                        if (listBox1.SelectedIndex < 10)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 15)
                     {
@@ -2951,6 +2966,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с щипком. Сразу после щипка прикасающийся палец должен прервать контакт со струной. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон\r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше)";
                         if (listBox1.SelectedIndex < 13)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 14)
@@ -2967,6 +2983,11 @@ namespace Instrumentation
                         //6
                         richTextBox1.Text = "Здесь тремоло исполняется по принципу «нота/созвучие — одна рука, следующая нота/созвучие — другая рука и т. д.»";
                         pictureBox1.Image = null;
+                        if (listBox1.SelectedIndex < 16)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 22)
                     {
@@ -2979,12 +3000,18 @@ namespace Instrumentation
                         //8
                         richTextBox1.Text = "Педальное глиссандо предполагает извлечение первого звука с помощью рук, а последующих — лишь с помощью смены позиции педали";
                         pictureBox1.Image = Resources._908__Педальное_глиссандо;
+                        if (listBox1.SelectedIndex < 23)
+                        {
+                            richTextBox1.Text = null;
+                            pictureBox1.Image = null;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 29)
                     {
                         //9
                         if (listBox1.SelectedIndex < 27)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 28)
@@ -3004,6 +3031,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на арфе звук извлекается подушечкой пальца, а не ногтем";
                         if (listBox1.SelectedIndex < 30)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 31)
@@ -3052,7 +3080,7 @@ namespace Instrumentation
                 }
 
             };
-            //таблица 16
+            //таблица 16 - Клавишные гусли
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 16)
