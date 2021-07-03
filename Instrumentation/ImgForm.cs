@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Instrumentation
 {
-    public partial class ImgForm : Form
+    public partial class ImgForm : System.Windows.Forms.Form
     {
         public ImgForm()
         {

@@ -7,7 +7,7 @@ using Un4seen.Bass;
 
 namespace Instrumentation
 {
-    public partial class Form1 : Form
+    public partial class Form1 : System.Windows.Forms.Form
     {
 
         /// <summary>
@@ -150,7 +150,6 @@ namespace Instrumentation
                 if (a.EndsWith("wav"))
                 {
                     a = a.Replace(".wav", "");
-
                 }
                 char[] numbering = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', '.', '-' };
                 a = a.TrimStart(numbering);
@@ -160,7 +159,10 @@ namespace Instrumentation
 
         public Form1()
         {
-            InitializeComponent();            
+            InitializeComponent();
+
+            FormSplash sf = new FormSplash();
+            sf.ShowDialog();
 
             //таблица 1 - Смычковые струнные инструменты
             listBox1.SelectedIndexChanged += (s, a) =>

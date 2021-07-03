@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Instrumentation
 {
-    public partial class InfoForm : Form
+    public partial class InfoForm : System.Windows.Forms.Form
     {
         public InfoForm()
         {
@@ -62,7 +62,7 @@ namespace Instrumentation
         }
     }
 
-    internal class infoForm : Form
+    internal class infoForm : System.Windows.Forms.Form
     {
         private Bitmap image;
 
