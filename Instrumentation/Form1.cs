@@ -3097,6 +3097,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Арпеджиато — главный приём игры. По умолчанию осуществляется проведением медиатора по всем струнам последовательно в указанном диапазоне, при этом звучит лишь часть отыгрываемых струн — та, что освобождена от демпферов";
                         if (listBox1.SelectedIndex < 2)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 3)
@@ -3114,6 +3115,7 @@ namespace Instrumentation
                         richTextBox1.Text = "По умолчанию на клавишных гуслях звук извлекается медиатором";
                         if (listBox1.SelectedIndex < 5)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 6)
@@ -3171,6 +3173,7 @@ namespace Instrumentation
                         richTextBox1.Text = "Все струны заглушены демпферами, клавиши не нажаты";
                         if (listBox1.SelectedIndex < 15)
                         {
+                            richTextBox1.Text = null;
                             pictureBox1.Image = null;
                         }
                         else if (listBox1.SelectedIndex < 16)
