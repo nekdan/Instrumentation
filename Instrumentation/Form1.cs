@@ -3498,7 +3498,8 @@ namespace Instrumentation
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            ViewPicture viewPicture = new ViewPicture(pictureBox1.Image);
+            viewPicture.Show();
         }
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
