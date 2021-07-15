@@ -151,9 +151,15 @@ namespace Instrumentation
                 {
                     a = a.Replace(".wav", "");
                 }
-                char[] numbering = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', '.', '-' };
+                char[] numbering = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.' };
+                a = a.Replace("-", "    ");
                 a = a.TrimStart(numbering);
                 listBox1.Items.Add(a);
+                /*
+                char[] numbering_replace = { '-', ' ' };
+                a = a.Replace(numbering_replace, "   ");
+                listBox1.Items.Add(a);
+                */
             }
         }
 
@@ -3498,8 +3504,8 @@ namespace Instrumentation
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            ViewPicture viewPicture = new ViewPicture(pictureBox1.Image);
-            viewPicture.Show();
+            ImgForm form = new ImgForm();
+            form.Show();
         }
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
