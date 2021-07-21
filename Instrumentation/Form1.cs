@@ -151,9 +151,15 @@ namespace Instrumentation
                 {
                     a = a.Replace(".wav", "");
                 }
+                a = a.Replace("-", "    ");
                 char[] numbering = { '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.' };
                 a = a.Replace("-", "    ");
                 a = a.TrimStart(numbering);
+                if (a.StartsWith("    "))
+                {
+                    a = a.Remove(4, 2);
+                    a = a.Replace(".", "");
+                }                
                 listBox1.Items.Add(a);
                 /*
                 char[] numbering_replace = { '-', ' ' };
