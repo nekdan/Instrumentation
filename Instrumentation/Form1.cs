@@ -176,11 +176,30 @@ namespace Instrumentation
             FormSplash sf = new FormSplash();
             sf.ShowDialog();
 
+            //прячем панель управления
+            button1.Visible = false;
+            btnStop.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            soundTrackBar.Visible = false;
+            pictureBox2.Visible = false;
+            volumeTrackBar.Visible = false;
+
             //таблица 1 - Смычковые струнные инструменты
             listBox1.SelectedIndexChanged += (s, a) =>
             {
                 if (cont == 1)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 6)
                     {
                         richTextBox1.Text = "Используется главный приём игры — áрко, при котором звукоизвлечение совершается ведением волоса смычка по струне. Этот приём игры используется по умолчанию при отсутствии указаний на другой основной приём — пиццикато, коль леньо, коль леньо тратто";
@@ -188,6 +207,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 2)
                         {
@@ -222,6 +249,15 @@ namespace Instrumentation
             {
                 if (cont == 2)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -237,6 +273,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -266,6 +310,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
@@ -292,6 +344,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 12)
                         {
@@ -317,6 +377,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 16)
                         {
@@ -337,6 +405,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 19)
                         {
@@ -365,6 +441,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -377,6 +461,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
 
@@ -390,6 +482,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -408,6 +508,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 39)
                         {
@@ -442,6 +550,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 46)
                         {
@@ -492,7 +608,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
-
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 56)
                         {
@@ -521,6 +644,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 60)
                         {
@@ -556,6 +687,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 66)
                         {
@@ -586,6 +725,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 71)
                         {
@@ -645,6 +792,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 82)
                         {
@@ -712,6 +867,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 98)
@@ -721,6 +884,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 96)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 97)
                         {
@@ -742,6 +913,14 @@ namespace Instrumentation
                         //25
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        button1.Visible = false;
+                        btnStop.Visible = false;
+                        label1.Visible = false;
+                        label2.Visible = false;
+                        label3.Visible = false;
+                        soundTrackBar.Visible = false;
+                        pictureBox2.Visible = false;
+                        volumeTrackBar.Visible = false;
                     }
                     else if (listBox1.SelectedIndex < 105)
                     {
@@ -751,6 +930,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 102)
                         {
@@ -775,6 +962,14 @@ namespace Instrumentation
                         //27
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        button1.Visible = false;
+                        btnStop.Visible = false;
+                        label1.Visible = false;
+                        label2.Visible = false;
+                        label3.Visible = false;
+                        soundTrackBar.Visible = false;
+                        pictureBox2.Visible = false;
+                        volumeTrackBar.Visible = false;
                     }
                     else if (listBox1.SelectedIndex < 107)
                     {
@@ -823,6 +1018,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 116)
                         {
@@ -899,6 +1102,15 @@ namespace Instrumentation
                 {
                     richTextBox1.Text = null;
                     pictureBox1.Image = null;
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -913,6 +1125,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -942,6 +1162,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
@@ -960,6 +1188,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 11)
                         {
@@ -978,6 +1214,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -996,6 +1240,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 21)
                         {
@@ -1012,6 +1264,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 31)
@@ -1023,6 +1283,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1040,6 +1308,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 34)
                         {
@@ -1066,6 +1342,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 39)
                         {
@@ -1093,6 +1377,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1103,6 +1395,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 49)
                         {
@@ -1168,6 +1468,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 61)
                         {
@@ -1187,6 +1495,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 64)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 65)
                         {
@@ -1224,6 +1540,15 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 72)
                         {
@@ -1260,6 +1585,15 @@ namespace Instrumentation
                 {
                     richTextBox1.Text = null;
                     pictureBox1.Image = null;
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -1274,6 +1608,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -1300,6 +1642,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 8)
                         {
@@ -1318,6 +1668,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 11)
                         {
@@ -1336,6 +1694,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -1355,6 +1721,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1367,6 +1741,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1379,6 +1761,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1414,6 +1804,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 35)
                         {
@@ -1441,6 +1839,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
 
@@ -1453,6 +1859,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 45)
                         {
@@ -1470,6 +1884,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 48)
                         {
@@ -1525,6 +1947,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 58)
                         {
@@ -1535,6 +1965,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 60)
                         {
@@ -1545,6 +1983,7 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+
                         }
                     }
                     else if (listBox1.SelectedIndex < 62)
@@ -1561,6 +2000,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 64)
                         {
@@ -1613,6 +2060,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 74)
                         {
@@ -1689,6 +2144,15 @@ namespace Instrumentation
             {
                 if (cont == 5)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -1703,6 +2167,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -1730,6 +2202,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 16)
@@ -1741,6 +2221,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
 
                     }
@@ -1758,6 +2246,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 19)
                         {
@@ -1785,6 +2281,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 28)
@@ -1800,6 +2304,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 30)
                         {
@@ -1854,6 +2366,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 40)
                         {
@@ -1864,6 +2384,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 42)
                         {
@@ -1874,6 +2402,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 48)
@@ -1884,6 +2420,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 45)
                         {
@@ -1921,6 +2465,14 @@ namespace Instrumentation
             {
                 if (cont == 6)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
 
                     if (listBox1.SelectedIndex < 1)
                     {
@@ -1942,6 +2494,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 4)
                         {
@@ -1965,6 +2525,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 15)
@@ -1975,6 +2543,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 13)
                         {
@@ -2009,6 +2585,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 19)
                         {
@@ -2039,6 +2623,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 25)
                         {
@@ -2105,6 +2697,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 35)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 38)
@@ -2121,6 +2721,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 39)
                         {
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                 }
@@ -2130,6 +2738,15 @@ namespace Instrumentation
             {
                 if (cont == 7)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2143,6 +2760,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 2)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -2165,6 +2790,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 7)
                         {
@@ -2183,6 +2816,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 10)
                         {
@@ -2205,6 +2846,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -2246,6 +2895,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 27)
                         {
@@ -2264,6 +2921,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 30)
                         {
@@ -2282,6 +2947,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 33)
                         {
@@ -2304,6 +2977,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 37)
                         {
@@ -2326,6 +3007,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 41)
                         {
@@ -2354,6 +3043,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 46)
                         {
@@ -2376,6 +3073,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 50)
                         {
@@ -2394,6 +3099,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 53)
                         {
@@ -2411,6 +3124,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 55)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 56)
                         {
@@ -2432,6 +3153,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 59)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 60)
                         {
@@ -2467,6 +3196,15 @@ namespace Instrumentation
             {
                 if (cont == 8)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2492,6 +3230,14 @@ namespace Instrumentation
             {
                 if (cont == 9)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
 
                     if (listBox1.SelectedIndex < 1)
                     {
@@ -2524,6 +3270,14 @@ namespace Instrumentation
             {
                 if (cont == 10)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
 
                     if (listBox1.SelectedIndex < 1)
                     {
@@ -2557,6 +3311,14 @@ namespace Instrumentation
             {
                 if (cont == 11)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
 
                     if (listBox1.SelectedIndex < 1)
                     {
@@ -2589,6 +3351,14 @@ namespace Instrumentation
                         {
                             pictureBox1.Image = null;
                             richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 6)
                         {
@@ -2631,6 +3401,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 13)
                         {
@@ -2654,6 +3432,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 17)
                         {
@@ -2676,6 +3462,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 21)
                         {
@@ -2701,6 +3495,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 31)
@@ -2712,6 +3514,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 32)
@@ -2740,6 +3550,15 @@ namespace Instrumentation
             {
                 if (cont == 12)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2771,6 +3590,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 6)
                         {
@@ -2789,6 +3616,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 9)
                         {
@@ -2807,6 +3642,15 @@ namespace Instrumentation
             {
                 if (cont == 13)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2821,6 +3665,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -2839,6 +3691,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 6)
                         {
@@ -2857,6 +3717,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 9)
                         {
@@ -2875,6 +3743,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 12)
                         {
@@ -2893,6 +3769,15 @@ namespace Instrumentation
             {
                 if (cont == 14)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2919,6 +3804,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 5)
                         {
@@ -2937,6 +3830,15 @@ namespace Instrumentation
             {
                 if (cont == 15)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -2952,6 +3854,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 9)
@@ -2963,6 +3873,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 12)
@@ -2974,6 +3892,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 15)
@@ -2984,6 +3910,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 14)
                         {
@@ -3003,6 +3937,15 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
+
                         }
                     }
                     else if (listBox1.SelectedIndex < 22)
@@ -3020,6 +3963,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                     }
                     else if (listBox1.SelectedIndex < 29)
@@ -3029,6 +3980,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 28)
                         {
@@ -3049,6 +4008,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 31)
                         {
@@ -3101,6 +4068,15 @@ namespace Instrumentation
             {
                 if (cont == 16)
                 {
+                    button1.Visible = true;
+                    btnStop.Visible = true;
+                    label1.Visible = true;
+                    label2.Visible = true;
+                    label3.Visible = true;
+                    soundTrackBar.Visible = true;
+                    pictureBox2.Visible = true;
+                    volumeTrackBar.Visible = true;
+
                     if (listBox1.SelectedIndex < 1)
                     {
                         //1
@@ -3115,6 +4091,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 3)
                         {
@@ -3133,6 +4117,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 6)
                         {
@@ -3150,6 +4142,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 8)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 9)
                         {
@@ -3191,6 +4191,14 @@ namespace Instrumentation
                         {
                             richTextBox1.Text = null;
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 16)
                         {
@@ -3214,6 +4222,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 19)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 20)
                         {
@@ -3258,6 +4274,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 27)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 28)
                         {
@@ -3275,6 +4299,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 30)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 31)
                         {
@@ -3300,6 +4332,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 35)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 36)
                         {
@@ -3320,6 +4360,16 @@ namespace Instrumentation
         {
             richTextBox1.Text = null;
             pictureBox1.Image = null;
+
+            button1.Visible = false;
+            btnStop.Visible = false;
+            label1.Visible = false;
+            label2.Visible = false;
+            label3.Visible = false;
+            soundTrackBar.Visible = false;
+            pictureBox2.Visible = false;
+            volumeTrackBar.Visible = false;
+
             if (treeView1.SelectedNode.Name == "Node0SmoothedSI")
             {
                 readTypeFiles(@"sound\01. Смычковые струнные инструменты\");
