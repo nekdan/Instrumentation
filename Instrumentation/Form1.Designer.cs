@@ -263,11 +263,11 @@ namespace Instrumentation
             // 
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
             this.button2.Location = new System.Drawing.Point(5, 12);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 37);
+            this.button2.Size = new System.Drawing.Size(137, 37);
             this.button2.TabIndex = 3;
             this.button2.Text = "Информация";
             this.button2.UseVisualStyleBackColor = true;
@@ -358,11 +358,11 @@ namespace Instrumentation
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
             this.button3.Location = new System.Drawing.Point(3, 595);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(123, 37);
+            this.button3.Size = new System.Drawing.Size(138, 37);
             this.button3.TabIndex = 4;
             this.button3.Text = "Аудиофайлы";
             this.button3.UseVisualStyleBackColor = false;
