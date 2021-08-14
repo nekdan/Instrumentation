@@ -31,6 +31,10 @@ namespace Instrumentation
         {
             this.Close();
         }
-        
+
+        private void FormSplash_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

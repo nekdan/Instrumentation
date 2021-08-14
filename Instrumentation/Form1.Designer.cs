@@ -148,7 +148,7 @@ namespace Instrumentation
             treeNode17,
             treeNode18});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(283, 434);
+            this.treeView1.Size = new System.Drawing.Size(283, 472);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -159,7 +159,7 @@ namespace Instrumentation
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(10, 485);
+            this.button1.Location = new System.Drawing.Point(10, 523);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(45, 36);
@@ -175,11 +175,12 @@ namespace Instrumentation
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(28, 6);
+            this.richTextBox1.Location = new System.Drawing.Point(10, 6);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.MaximumSize = new System.Drawing.Size(500, 1000);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(334, 330);
+            this.richTextBox1.Size = new System.Drawing.Size(275, 377);
             this.richTextBox1.TabIndex = 23;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -190,10 +191,10 @@ namespace Instrumentation
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(1027, 349);
+            this.pictureBox1.Location = new System.Drawing.Point(995, 387);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(337, 131);
+            this.pictureBox1.Size = new System.Drawing.Size(285, 131);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 24;
             this.pictureBox1.TabStop = false;
@@ -204,7 +205,7 @@ namespace Instrumentation
             this.soundTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.soundTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.soundTrackBar.Location = new System.Drawing.Point(151, 485);
+            this.soundTrackBar.Location = new System.Drawing.Point(151, 523);
             this.soundTrackBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.soundTrackBar.Maximum = 100;
             this.soundTrackBar.Name = "soundTrackBar";
@@ -217,7 +218,7 @@ namespace Instrumentation
             // 
             this.volumeTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.volumeTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.volumeTrackBar.Location = new System.Drawing.Point(1279, 485);
+            this.volumeTrackBar.Location = new System.Drawing.Point(1279, 523);
             this.volumeTrackBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.volumeTrackBar.Maximum = 100;
             this.volumeTrackBar.Name = "volumeTrackBar";
@@ -233,7 +234,7 @@ namespace Instrumentation
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1079, 506);
+            this.label2.Location = new System.Drawing.Point(1079, 544);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 15);
             this.label2.TabIndex = 27;
@@ -245,7 +246,7 @@ namespace Instrumentation
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1140, 506);
+            this.label3.Location = new System.Drawing.Point(1140, 544);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 15);
             this.label3.TabIndex = 28;
@@ -290,9 +291,9 @@ namespace Instrumentation
             this.panel2.Controls.Add(this.listBox1);
             this.panel2.Location = new System.Drawing.Point(271, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.MaximumSize = new System.Drawing.Size(744, 1500);
+            this.panel2.MaximumSize = new System.Drawing.Size(735, 1500);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(744, 480);
+            this.panel2.Size = new System.Drawing.Size(720, 518);
             this.panel2.TabIndex = 30;
             // 
             // listBox1
@@ -308,9 +309,9 @@ namespace Instrumentation
             this.listBox1.ItemHeight = 20;
             this.listBox1.Location = new System.Drawing.Point(10, 9);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.listBox1.MaximumSize = new System.Drawing.Size(744, 1500);
+            this.listBox1.MaximumSize = new System.Drawing.Size(715, 1500);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(729, 460);
+            this.listBox1.Size = new System.Drawing.Size(705, 480);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
@@ -321,10 +322,11 @@ namespace Instrumentation
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.panel3.Controls.Add(this.richTextBox1);
-            this.panel3.Location = new System.Drawing.Point(1015, 0);
+            this.panel3.Location = new System.Drawing.Point(990, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.MaximumSize = new System.Drawing.Size(500, 1000);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(347, 480);
+            this.panel3.Size = new System.Drawing.Size(295, 518);
             this.panel3.TabIndex = 31;
             // 
             // btnStop
@@ -334,7 +336,7 @@ namespace Instrumentation
             this.btnStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStop.FlatAppearance.BorderSize = 0;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop.Location = new System.Drawing.Point(60, 485);
+            this.btnStop.Location = new System.Drawing.Point(60, 523);
             this.btnStop.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(45, 36);
@@ -347,7 +349,7 @@ namespace Instrumentation
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(156, 506);
+            this.label1.Location = new System.Drawing.Point(156, 544);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 15);
             this.label1.TabIndex = 33;
@@ -358,7 +360,7 @@ namespace Instrumentation
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Instrumentation.Properties.Resources.Speaker_Icon_1;
-            this.pictureBox2.Location = new System.Drawing.Point(1245, 487);
+            this.pictureBox2.Location = new System.Drawing.Point(1245, 525);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(38, 16);
@@ -392,10 +394,10 @@ namespace Instrumentation
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(1284, 527);
+            this.ClientSize = new System.Drawing.Size(1284, 565);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox2);
@@ -410,7 +412,6 @@ namespace Instrumentation
             this.Controls.Add(this.soundTrackBar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.treeView1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MinimumSize = new System.Drawing.Size(964, 565);
