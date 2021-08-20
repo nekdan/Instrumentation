@@ -278,7 +278,7 @@ namespace Instrumentation
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(4, 10);
+            this.button2.Location = new System.Drawing.Point(1, 10);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(148, 35);
@@ -381,7 +381,7 @@ namespace Instrumentation
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(0, 558);
+            this.button3.Location = new System.Drawing.Point(1, 558);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(148, 35);

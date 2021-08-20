@@ -3414,9 +3414,49 @@ namespace Instrumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8112_2_Восходящее_техническое_легато {
+            get {
+                object obj = ResourceManager.GetObject("_8112_2_Восходящее_техническое_легато", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8112_3_Восходящее_техническое_легато {
+            get {
+                object obj = ResourceManager.GetObject("_8112_3_Восходящее_техническое_легато", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8113__Нисходящее_техническое_легато {
             get {
                 object obj = ResourceManager.GetObject("_8113__Нисходящее_техническое_легато", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8113_2_Нисходящее_техническое_легато {
+            get {
+                object obj = ResourceManager.GetObject("_8113_2_Нисходящее_техническое_легато", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8113_3_Нисходящее_техническое_легато {
+            get {
+                object obj = ResourceManager.GetObject("_8113_3_Нисходящее_техническое_легато", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
