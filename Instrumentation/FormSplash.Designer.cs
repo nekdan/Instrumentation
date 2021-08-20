@@ -44,9 +44,9 @@ namespace Instrumentation
             this.label1.BackColor = System.Drawing.SystemColors.Desktop;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(290, 34);
+            this.label1.Location = new System.Drawing.Point(331, 45);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 19);
+            this.label1.Size = new System.Drawing.Size(101, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "C. C. Попов";
             // 
@@ -55,9 +55,9 @@ namespace Instrumentation
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(245)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(141, 96);
+            this.label2.Location = new System.Drawing.Point(147, 123);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(238, 22);
+            this.label2.Size = new System.Drawing.Size(288, 26);
             this.label2.TabIndex = 1;
             this.label2.Text = "ИНСТРУМЕНТОВЕДЕНИЕ";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -67,9 +67,9 @@ namespace Instrumentation
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(209, 133);
+            this.label3.Location = new System.Drawing.Point(239, 162);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 16);
+            this.label3.Size = new System.Drawing.Size(194, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "(струнные инструменты)";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -80,9 +80,9 @@ namespace Instrumentation
             this.label4.BackColor = System.Drawing.SystemColors.Desktop;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(269, 189);
+            this.label4.Location = new System.Drawing.Point(307, 252);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 19);
+            this.label4.Size = new System.Drawing.Size(125, 23);
             this.label4.TabIndex = 3;
             this.label4.Text = "Аудиопособие";
             // 
@@ -92,9 +92,9 @@ namespace Instrumentation
             this.label5.BackColor = System.Drawing.SystemColors.Desktop;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(338, 379);
+            this.label5.Location = new System.Drawing.Point(386, 505);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 19);
+            this.label5.Size = new System.Drawing.Size(46, 23);
             this.label5.TabIndex = 4;
             this.label5.Text = "2021";
             // 
@@ -106,13 +106,13 @@ namespace Instrumentation
             // 
             // FormSplash
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.BackgroundImage = global::Instrumentation.Properties.Resources.Oblozhka_4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(390, 424);
+            this.ClientSize = new System.Drawing.Size(446, 565);
             this.ControlBox = false;
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -120,7 +120,6 @@ namespace Instrumentation
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormSplash";

@@ -1267,6 +1267,9 @@
   <data name="Oblozhka_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Oblozhka_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kasparov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kasparov.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_8112_2_Восходящее_техническое_легато" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8112-2 Восходящее техническое легато.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

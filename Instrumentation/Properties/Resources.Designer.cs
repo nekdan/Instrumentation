@@ -3835,6 +3835,16 @@ namespace Instrumentation.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kasparov {
+            get {
+                object obj = ResourceManager.GetObject("kasparov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Oblozhka_4 {
             get {
                 object obj = ResourceManager.GetObject("Oblozhka_4", resourceCulture);
