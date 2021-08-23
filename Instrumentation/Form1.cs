@@ -4697,7 +4697,15 @@ namespace Instrumentation
         private void button2_Click(object sender, EventArgs e)
         {
             InfoForm infoForm = new InfoForm();
-            infoForm.Show();
+            if ((Application.OpenForms["InfoForm"] as InfoForm) != null)
+            {
+                //Form is already open                
+            }
+            else
+            {
+                // Form is not open
+                infoForm.Show();
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -4708,7 +4716,15 @@ namespace Instrumentation
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             ViewPicture viewPicture = new ViewPicture(pictureBox1.Image);
-            viewPicture.Show();
+            if ((Application.OpenForms["ViewPicture"] as ViewPicture) != null)
+            {
+                //Form is already open                
+            }
+            else
+            {
+                // Form is not open
+                viewPicture.Show();
+            }            
         }
 
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)

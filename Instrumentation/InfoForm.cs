@@ -51,7 +51,16 @@ namespace Instrumentation
             //imgform.ShowDialog();
 
             ImgForm form = new ImgForm();
-            form.Show();
+            if ((Application.OpenForms["ImgForm"] as ImgForm) != null)
+            {
+                //Form is already open                
+            }
+            else
+            {
+                // Form is not open
+                form.Show();
+            }
+
             // ImgForm imgForm = new ImgForm();
             // imgForm.Show();
         }
