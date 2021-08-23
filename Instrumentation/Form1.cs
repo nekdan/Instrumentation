@@ -684,7 +684,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 67)
                     {
                         //16
-                        richTextBox1.Text = "Натуральный флажолет исполняется на открытой струне, искусственный — на закрытой: один палец прижимает струну, а другой одновременно к ней прикасается \r\rЗдесь флажолеты исполняются на основе арко";
+                        richTextBox1.Text = "Натуральный флажолет исполняется на открытой струне, искусственный — на закрытой: один палец прижимает струну, а другой одновременно к ней прикасается \r\rЗдесь флажолет исполняется на основе арко";
                         if (listBox1.SelectedIndex < 65)
                         {
                             pictureBox1.Image = null;
@@ -998,6 +998,15 @@ namespace Instrumentation
                         pictureBox1.Image = null;
                         if (listBox1.SelectedIndex < 110)
                         {
+                            richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                             pictureBox1.Image = Resources._231__Коль_леньо_тратто___разные_зоны_струны;
                         }
                         else if (listBox1.SelectedIndex < 111)
@@ -2040,6 +2049,15 @@ namespace Instrumentation
                         richTextBox1.Text = "Коль леньо тратто — ведение древка смычка по струне";
                         if (listBox1.SelectedIndex < 69)
                         {
+                            richTextBox1.Text = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                             pictureBox1.Image = Resources._422__Коль_леньо_тратто___разные_зоны_струны;
                         }
                         else if (listBox1.SelectedIndex < 70)
@@ -2576,7 +2594,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 17)
                     {
                         //7
-                        richTextBox1.Text = "Бенд исполняется подтягиванием или опусканием струны, прижатой пальцем левой руки, перпендикулярно грифу. Образуется гладкое глиссандо вверх до полутона";
+                        richTextBox1.Text = "Бенд — приём игры, при котором левая рука подтягивает или опускает прижимаемую колеблющуюся струну перпендикулярно грифу. Образуется гладкое глиссандо вверх до полутона";
                         pictureBox1.Image = Resources._607__Бенд;
                     }
                     else if (listBox1.SelectedIndex < 23)
@@ -3034,7 +3052,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 43)
                     {
                         //13
-                        richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с тремоло медиатором. В результате извлекается какойлибо обертон. Кроме того, флажолетом называется сам извлекаемый обертон\r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.\r\rНатуральный флажолет исполняется на открытой струне ";
+                        richTextBox1.Text = "Флажолет — это приём игры, который исполняется лёгким прикосновением пальца к струне в точке её деления на несколько равных отрезков. Прикосновение само по себе не производит звукоизвлечение и в данном случае осуществляется вместе с тремоло медиатором. В результате извлекается какой-либо обертон. Кроме того, флажолетом называется сам извлекаемый обертон\r\rПрикосновение к струне в точке её деления на два равных отрезка приводит к извлечению октавного обертона (и звучанию струны на октаву выше). Прикосновение в одной из точек деления на три равных отрезка приводит к извлечению квинтового обертона (и звучанию струны на дуодециму выше) и т. д.\r\rНатуральный флажолет исполняется на открытой струне ";
                         if (listBox1.SelectedIndex < 40)
                         {
                             richTextBox1.Text = null;
@@ -3248,6 +3266,14 @@ namespace Instrumentation
                         //2
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        button1.Visible = false;
+                        btnStop.Visible = false;
+                        label1.Visible = false;
+                        label2.Visible = false;
+                        label3.Visible = false;
+                        soundTrackBar.Visible = false;
+                        pictureBox2.Visible = false;
+                        volumeTrackBar.Visible = false;
                     }
                     else if (listBox1.SelectedIndex < 4)
                     {
@@ -3288,6 +3314,14 @@ namespace Instrumentation
                         //3
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        button1.Visible = false;
+                        btnStop.Visible = false;
+                        label1.Visible = false;
+                        label2.Visible = false;
+                        label3.Visible = false;
+                        soundTrackBar.Visible = false;
+                        pictureBox2.Visible = false;
+                        volumeTrackBar.Visible = false;
                     }
                     else if (listBox1.SelectedIndex < 7)
                     {
@@ -3328,6 +3362,14 @@ namespace Instrumentation
                         //3
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        button1.Visible = false;
+                        btnStop.Visible = false;
+                        label1.Visible = false;
+                        label2.Visible = false;
+                        label3.Visible = false;
+                        soundTrackBar.Visible = false;
+                        pictureBox2.Visible = false;
+                        volumeTrackBar.Visible = false;
                     }
                     else if (listBox1.SelectedIndex < 7)
                     {
@@ -3416,7 +3458,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 10)
                     {
                         //6
-                        richTextBox1.Text = "Гитарный приём — название техники, при которой звукоизвлечение производится любыми пальцами правой руки при относительной пассивности кисти и предплечья";
+                        richTextBox1.Text = "Гитарный приём — это такой приём, при котором звук извлекается любыми пальцами правой руки при относительной пассивности кисти и предплечья.";
                         pictureBox1.Image = Resources._8106__Гитарный_приём;
                     }
                     else if (listBox1.SelectedIndex < 11)
@@ -3459,7 +3501,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 19)
                     {
                         //9
-                        richTextBox1.Text = "Вибрато образуется при периодических колебаниях звука по высоте, громкости и тембру. Один из параметров всегда преобладает, у струнных инструментов — высота \r\rНа балалайке вибрато достигается следующим способом: ребро правой ладони прикладывается к нужной струне за подставкой и с помощью покачиваний осуществляет периодические нажимы на подставку и струну";
+                        richTextBox1.Text = "Вибрато образуется при периодических колебаниях звука по высоте, громкости и тембру. Один из параметров всегда преобладает, у струнных инструментов — высота";
                         if (listBox1.SelectedIndex < 16)
                         {
                             richTextBox1.Text = null;
@@ -3589,6 +3631,17 @@ namespace Instrumentation
                         //15
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        if (listBox1.SelectedIndex < 33)
+                        {
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 38)
                     {
@@ -4019,7 +4072,7 @@ namespace Instrumentation
                     {
                         //7
                         richTextBox1.Text = "Тремоло Эола исполняется пальцами двух рук, совершающими быстрыми поочерёдные движения вперёд и назад по струнам в указанном диапазоне";
-                        pictureBox1.Image = Resources._907_5;
+                        pictureBox1.Image = null;
                     }
                     else if (listBox1.SelectedIndex < 26)
                     {
@@ -4112,7 +4165,7 @@ namespace Instrumentation
                     else if (listBox1.SelectedIndex < 36)
                     {
                         //13
-                        richTextBox1.Text = "Одна рука извлекает звук, в то время как другая сильно надавливает на определённые струны";
+                        richTextBox1.Text = "Так арфистка В. Дулова назвала звучание струны, испытывающей сильное надавливание в своей нижней или верхней части пальцем свободной руки. Струны, требующие надавливания, отмечаются в нотах дополнительными ромбами.";
                         pictureBox1.Image = Resources._913__Эффект_ксилофона;
                     }
                     else if (listBox1.SelectedIndex < 43)
@@ -4120,6 +4173,17 @@ namespace Instrumentation
                         //14
                         richTextBox1.Text = null;
                         pictureBox1.Image = null;
+                        if (listBox1.SelectedIndex < 37)
+                        {
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
+                        }
                     }
                     else if (listBox1.SelectedIndex < 44)
                     {
@@ -4234,6 +4298,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 11)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 12)
                         {
@@ -4318,6 +4390,14 @@ namespace Instrumentation
                         if (listBox1.SelectedIndex < 23)
                         {
                             pictureBox1.Image = null;
+                            button1.Visible = false;
+                            btnStop.Visible = false;
+                            label1.Visible = false;
+                            label2.Visible = false;
+                            label3.Visible = false;
+                            soundTrackBar.Visible = false;
+                            pictureBox2.Visible = false;
+                            volumeTrackBar.Visible = false;
                         }
                         else if (listBox1.SelectedIndex < 24)
                         {

@@ -212,7 +212,7 @@ namespace Instrumentation
             this.soundTrackBar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.soundTrackBar.Maximum = 100;
             this.soundTrackBar.Name = "soundTrackBar";
-            this.soundTrackBar.Size = new System.Drawing.Size(1309, 56);
+            this.soundTrackBar.Size = new System.Drawing.Size(1144, 56);
             this.soundTrackBar.TabIndex = 25;
             this.soundTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.soundTrackBar.Scroll += new System.EventHandler(this.soundTrackBar_Scroll);
@@ -221,7 +221,7 @@ namespace Instrumentation
             // 
             this.volumeTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.volumeTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.volumeTrackBar.Location = new System.Drawing.Point(1599, 654);
+            this.volumeTrackBar.Location = new System.Drawing.Point(1411, 654);
             this.volumeTrackBar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.volumeTrackBar.Maximum = 100;
             this.volumeTrackBar.Name = "volumeTrackBar";
@@ -237,7 +237,7 @@ namespace Instrumentation
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1349, 680);
+            this.label2.Location = new System.Drawing.Point(1187, 680);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
@@ -250,7 +250,7 @@ namespace Instrumentation
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1425, 680);
+            this.label3.Location = new System.Drawing.Point(1263, 680);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 20);
@@ -366,7 +366,7 @@ namespace Instrumentation
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Instrumentation.Properties.Resources.Speaker_Icon_1;
-            this.pictureBox2.Location = new System.Drawing.Point(1556, 656);
+            this.pictureBox2.Location = new System.Drawing.Point(1368, 656);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 20);
