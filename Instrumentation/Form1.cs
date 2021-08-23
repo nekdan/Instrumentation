@@ -157,8 +157,9 @@ namespace Instrumentation
                 a = a.TrimStart(numbering);
                 if (a.StartsWith("    "))
                 {
-                    a = a.Remove(4, 2);
-                    a = a.Replace(".", "");
+                    a = a.TrimStart();
+                    a = a.TrimStart(numbering);
+                    a = a.Insert(0, "    ");
                 }                
                 listBox1.Items.Add(a);
                 /*

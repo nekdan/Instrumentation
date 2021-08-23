@@ -65,6 +65,11 @@ namespace Instrumentation
         {
 
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     internal class infoForm : System.Windows.Forms.Form
