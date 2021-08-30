@@ -148,7 +148,7 @@ namespace Instrumentation
             treeNode17,
             treeNode18});
             this.treeView1.ShowLines = false;
-            this.treeView1.Size = new System.Drawing.Size(347, 590);
+            this.treeView1.Size = new System.Drawing.Size(347, 577);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
@@ -159,7 +159,7 @@ namespace Instrumentation
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 654);
+            this.button1.Location = new System.Drawing.Point(12, 647);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 45);
@@ -178,10 +178,10 @@ namespace Instrumentation
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
             this.richTextBox1.Location = new System.Drawing.Point(9, 8);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.richTextBox1.MinimumSize = new System.Drawing.Size(344, 471);
+            this.richTextBox1.MinimumSize = new System.Drawing.Size(344, 450);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(344, 471);
+            this.richTextBox1.Size = new System.Drawing.Size(344, 450);
             this.richTextBox1.TabIndex = 23;
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
@@ -193,7 +193,7 @@ namespace Instrumentation
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.InitialImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(1244, 484);
+            this.pictureBox1.Location = new System.Drawing.Point(1244, 469);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox1.MinimumSize = new System.Drawing.Size(356, 164);
             this.pictureBox1.Name = "pictureBox1";
@@ -208,7 +208,7 @@ namespace Instrumentation
             this.soundTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.soundTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.soundTrackBar.Location = new System.Drawing.Point(189, 654);
+            this.soundTrackBar.Location = new System.Drawing.Point(189, 647);
             this.soundTrackBar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.soundTrackBar.Maximum = 100;
             this.soundTrackBar.Name = "soundTrackBar";
@@ -221,7 +221,7 @@ namespace Instrumentation
             // 
             this.volumeTrackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.volumeTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
-            this.volumeTrackBar.Location = new System.Drawing.Point(1411, 654);
+            this.volumeTrackBar.Location = new System.Drawing.Point(1411, 647);
             this.volumeTrackBar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.volumeTrackBar.Maximum = 100;
             this.volumeTrackBar.Name = "volumeTrackBar";
@@ -237,7 +237,7 @@ namespace Instrumentation
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1187, 680);
+            this.label2.Location = new System.Drawing.Point(1187, 673);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 20);
@@ -250,7 +250,7 @@ namespace Instrumentation
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(33)))), ((int)(((byte)(36)))));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1263, 680);
+            this.label3.Location = new System.Drawing.Point(1263, 673);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 20);
@@ -298,7 +298,7 @@ namespace Instrumentation
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel2.MaximumSize = new System.Drawing.Size(919, 1875);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(900, 648);
+            this.panel2.Size = new System.Drawing.Size(900, 635);
             this.panel2.TabIndex = 30;
             // 
             // listBox1
@@ -312,11 +312,11 @@ namespace Instrumentation
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(12, 11);
+            this.listBox1.Location = new System.Drawing.Point(12, 8);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.listBox1.MaximumSize = new System.Drawing.Size(894, 1875);
+            this.listBox1.MaximumSize = new System.Drawing.Size(884, 1875);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(881, 600);
+            this.listBox1.Size = new System.Drawing.Size(884, 625);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged_1);
             this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
@@ -331,7 +331,7 @@ namespace Instrumentation
             this.panel3.Location = new System.Drawing.Point(1238, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(366, 648);
+            this.panel3.Size = new System.Drawing.Size(366, 635);
             this.panel3.TabIndex = 31;
             // 
             // btnStop
@@ -341,7 +341,7 @@ namespace Instrumentation
             this.btnStop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnStop.FlatAppearance.BorderSize = 0;
             this.btnStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnStop.Location = new System.Drawing.Point(75, 654);
+            this.btnStop.Location = new System.Drawing.Point(75, 647);
             this.btnStop.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(56, 45);
@@ -354,7 +354,7 @@ namespace Instrumentation
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(195, 680);
+            this.label1.Location = new System.Drawing.Point(195, 673);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 20);
@@ -366,7 +366,7 @@ namespace Instrumentation
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Instrumentation.Properties.Resources.Speaker_Icon_1;
-            this.pictureBox2.Location = new System.Drawing.Point(1368, 656);
+            this.pictureBox2.Location = new System.Drawing.Point(1368, 649);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(48, 20);
@@ -381,7 +381,7 @@ namespace Instrumentation
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(1, 558);
+            this.button3.Location = new System.Drawing.Point(1, 566);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(148, 35);
@@ -420,7 +420,7 @@ namespace Instrumentation
             this.Controls.Add(this.treeView1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.MinimumSize = new System.Drawing.Size(1623, 695);
+            this.MinimumSize = new System.Drawing.Size(1623, 723);
             this.Name = "Form1";
             this.Text = "Инструментоведение";
             this.Load += new System.EventHandler(this.Form1_Load);
